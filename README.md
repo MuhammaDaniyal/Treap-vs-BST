@@ -68,7 +68,7 @@ For initial testing and development, the **3GB CSV version** is recommended. Dat
 Data set is from Kaggle
 
 The Pushshift Reddit Dataset - submissions
-Link: [text](https://www.kaggle.com/datasets/i221113hadiyatanveer/the-pushshift-reddit-dataset-submissions)
+Link: [Data Set](https://www.kaggle.com/datasets/i221113hadiyatanveer/the-pushshift-reddit-dataset-submissions)
 
 ---
 
