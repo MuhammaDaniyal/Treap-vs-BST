@@ -59,7 +59,7 @@ void test_tescases_treap()
 int main() {
     
     MenuSystem menu;
-    // menu.run();
+    menu.run();
 
     ComparisonAnalysis analysis;
 
@@ -90,8 +90,10 @@ int main() {
 
     // analysis.testCSVLoading("/media/daniyal/New Volume/DataSet/reddit_data.csv");
     // analysis.testTGZLoading("/media/daniyal/New Volume/DataSet/dataset.tgz");
-    test_tescases_treap();
-    test_tescases_bst();
+    
+    // Test Cases
+    // test_tescases_treap();
+    // test_tescases_bst();
 
     return 0;
 }

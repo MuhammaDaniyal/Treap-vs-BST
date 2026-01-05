@@ -24,12 +24,11 @@ private:
         string postId;       // Unique identifier for the post
         long long timestamp; // Key for BST ordering
         int score;           // Priority for max-heap ordering
-        int priority;        // Random priority for treap randomization
         TreapNode* left;
         TreapNode* right;
         
         TreapNode(string id, long long ts, int sc) 
-        : postId(id), timestamp(ts), score(sc), priority(rand()), left(nullptr), right(nullptr) {}
+        : postId(id), timestamp(ts), score(sc), left(nullptr), right(nullptr) {}
     };
 
     TreapNode* root;
@@ -275,7 +274,6 @@ private:
 
         // Print the node's data: Timestamp (BST Key), Priority (Heap Key), and Branch Label
         cout << "TS: " << node->timestamp << branchLabel 
-            << " | Prio: " << node->priority 
             << " | ID: " << node->postId 
             << " | Score: " << node->score << endl;
 
@@ -306,7 +304,6 @@ private:
         
         // Print the root node
         cout << "ROOT: TS: " << root->timestamp 
-            << " | Prio: " << root->priority 
             << " | ID: " << root->postId 
             << " | Score: " << root->score << endl;
         
